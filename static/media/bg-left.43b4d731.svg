@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="501" height="118.213" viewBox="0 0 501 118.213">
+  <defs>
+    <pattern id="pattern" width="1" height="1" patternTransform="matrix(-1, 0, 0, 1, 1002, 0)" viewBox="-26.409 0 501 117.882">
+      <image preserveAspectRatio="none" width="501" height="117.882" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAAQCAYAAACvDNlTAAAB+ElEQVRYhdVXO07DQBCdRU4FlbsghSYNHQXUcAVyEzhZuEKoaejS0BAJulzAlhaN2VmNZz8ery0+T4oSbXZnZ968N06MtRbG4Pn8inbjQYMfjtUC7t9fRsX5qziZktexWoxj8x+g+u0Uny5ugrU51FYadxZC6rbhVupw+/E6R+gfxxTLmLptTOrLWIcGMIv9sDH4wibha2zcUQrBIuv8Fj9o58QUW2HTcOhrUWwZGqhSJbieU04GwZlHcxbsvltdauMVNaeIEEZGyfEUfAExIuCbDLs77I2WFPYUVBMTEKKVJ5Gx/Xzza5vlWnUpH8BkQZR1huBiK3LLaGqLKkQmhgXkfIid6z6IczwBGZMT6WLE7MaJ8MNxd9jDTqgo1gyNdSVJScuMmQWYIAh/a+y0Wa4tMHUMkK5JpQc+50TspOJ6P92RLVYcEoKd7B0kNfCCsduphGUyddv0HoN4lrpL+3BOKGu2eK/LRZ6xFI9yiDVJzpmKk1ACKX1+KSahHcCcNCl/eccQnLqzqhMO8GSaBzgNNrtp3iVGyWglmyucdcwrI6cuEbenAEmSINGr0CkjUI97D2L6GUIkAJsJHHyNCoitCXtk5wKdk08saSEQfySHZpu8M/ebScY029W1nWKZFGTXSXGx5On+mFU4YbQWiz+EFOn8HgCAL5TAKGKntnpcAAAAAElFTkSuQmCC"/>
+    </pattern>
+    <image id="image" width="63.897" height="47.923" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAApElEQVQokYVRwQ3DIAw0VZ8ZhSzUITwM3/4ZoAN0iWSU/F0ZxeigdnKSBQZ8Z3NJRCilRA7EO6yc++NX2WmoPDamZS2COWJZyx/RLC1eIeLz/jZlI3lExaqGiphXzv0cCS6VIzyji5lMc21/xkCgLUZdWLHNH0EsKmd3ne3tHZzKzRW00sHonP3oSYAqd9GgbIPanRNorUGOjfuMujf1q317TyQ/hVBwQ4011mcAAAAASUVORK5CYII="/>
+  </defs>
+  <g id="bg-left" transform="translate(11 -682)">
+    <rect id="blood2" width="501" height="117.882" transform="translate(-11 682)" fill="url(#pattern)"/>
+    <use id="骨頭" transform="translate(157 752.29)" xlink:href="#image"/>
+    <use id="骨頭-2" data-name="骨頭" transform="translate(231.973 752.29)" xlink:href="#image"/>
+    <use id="骨頭-3" data-name="骨頭" transform="translate(306.946 752.29)" xlink:href="#image"/>
+  </g>
+</svg>
