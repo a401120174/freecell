@@ -1,0 +1,73 @@
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 660px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 4px solid #fff;
+  background-color: #453122;
+  display: flex;
+  flex-direction: column;
+  .cancelBtn {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 28px;
+    -webkit-text-stroke: 3px #222;
+    img {
+      height: 28px;
+      margin: 0 5px;
+    }
+  }
+  .content {
+    font-size: 12px;
+    overflow-y: auto;
+    line-height: 1.5;
+    padding: 0 25px;
+    text-align: left;
+  }
+  .bottom {
+    font-size: 24px;
+    padding: 10px 0;
+    > div {
+      -webkit-text-stroke: 2px #222;
+      cursor: pointer;
+      animation: scale 0.8s 5;
+    }
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

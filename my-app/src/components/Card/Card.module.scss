@@ -1,0 +1,19 @@
+.card {
+  width: 100px;
+  height: 150px;
+  background-color: #fff;
+  // border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  & + .card {
+    margin-top: -110px;
+  }
+}
+
+.canDrag {
+  cursor: pointer;
+}

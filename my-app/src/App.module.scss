@@ -1,0 +1,58 @@
+.app {
+  text-align: center;
+  position: relative;
+  width: 1280px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 35px 85px;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+  background-color: #453122;
+  color: #fff;
+  .playArea,
+  .pendArea {
+    // width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  .topArea {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.cardBox {
+  width: 100px;
+  min-height: 150px;
+  height: fit-content;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.option {
+  cursor: pointer;
+  margin: 20px auto;
+  width: 70%;
+  padding: 25px 60px;
+  border-radius: 50px;
+  background-color: #2f2417;
+  border: 3px solid black;
+}
+
+.bottomBg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+  img {
+    margin: 0 auto;
+    height: 120px;
+    &.center {
+      margin-bottom: -20px;
+    }
+  }
+}
