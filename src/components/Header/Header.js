@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Styles from "./Header.module.scss";
 import Logo from "../../static/logo.svg";
 import Return from "../../static/btn-return.svg";
@@ -12,15 +12,20 @@ export const Header = ({ time, score, onMoreClick, onBackClick }) => {
   return (
     <div className={Styles.header}>
       <div>
-        <img src={Logo} draggable={false} />
+        <img src={Logo} draggable={false} alt="Logo" />
       </div>
       <div className={Styles.time}>
-        <img src={More} onClick={onMoreClick} draggable={false} />
+        <img src={More} onClick={onMoreClick} draggable={false} alt="More" />
         Time:0{fomatedMin}:{fomatedsec}
-        <img src={Return} onClick={onBackClick} draggable={false} />
+        <img
+          src={Return}
+          onClick={onBackClick}
+          draggable={false}
+          alt="Return"
+        />
       </div>
       <div>
-        <img src={Gooto} draggable={false} />
+        <img src={Gooto} draggable={false} alt="Gooto" />
         Score:{score}
       </div>
     </div>

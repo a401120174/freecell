@@ -24,6 +24,7 @@ export const Card = ({ onDragStart, content, rowIdx, draggable, area }) => {
           content.number
         }.png`)}
         draggable={false}
+        alt="card"
       />
     </div>
   );

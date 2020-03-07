@@ -337,9 +337,9 @@ function App() {
       </div>
 
       <div className={Styles.bottomBg}>
-        <img src={bgLeft} draggable={false} />
-        <img src={JQK} className={Styles.center} draggable={false} />
-        <img src={bgRight} draggable={false} />
+        <img src={bgLeft} draggable={false} alt="bg" />
+        <img src={JQK} className={Styles.center} draggable={false} alt="JQK" />
+        <img src={bgRight} draggable={false} alt="bg" />
       </div>
     </div>
   );
